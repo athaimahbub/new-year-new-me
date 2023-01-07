@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* first section background styles */
+.header{
+    background-image: url('images/banner1.png');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;  
+}
+
+/* header content styles */
+.header-content{
+    margin: 0 80px 0 250px;
+    padding: 0 50px 0 500px;
+    
+}
+ /* title styles */
+ .title{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+
+/* paragraph styles */
+.description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* contact button styles */
+
+.contact-button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 10px 15px;
+}
+
+/* failure list styles */
+.failure-list{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;  
+}
+
+.failure-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.failure-description{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-image: url('images/list_icon.png');
+}
+
+/* my plans section styles */
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.my-plans{
+     margin-top: 130px;
+     margin-bottom: 100px;
+}
+.plans-container{
+   display: flex;
+   gap: 150px;
+   justify-content: center;
+   
+}
+.plan{
+    background: #FFFFFF;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.plan-description{
+    color: #757575;
+}
+
+/* image gradient section styles */
+.image-gradient{
+    /*background-image: linear-gradient(to right, rgb(231, 71, 8), rgba(231, 46, 0, 0)), url('images/watch.png');*/
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.call-button{
+    color: orangered;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 10px 15px;
+}
+.mindset-header{
+    color: #FFFFFF;
+}
+/* footer styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+    background-color: rgb(29, 28, 28);
+    color: #FFFFFF;
+    text-align: left;
+}
+.contact input[type ="email"]{
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+}
