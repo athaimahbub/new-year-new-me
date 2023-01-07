@@ -100,6 +100,7 @@ ul{
 }
 
 /* image gradient section styles */
+
 .image-gradient{
     /*background-image: linear-gradient(to right, rgb(231, 71, 8), rgba(231, 46, 0, 0)), url('images/watch.png');*/
     background-image: url(images/gradient2.png), url(images/watch.png);
@@ -107,16 +108,22 @@ ul{
     height: 500px;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    
+    text-align: left;
+    justify-content:flex-start;
 }
+
+.mindset-container{
+    margin: 100px 80px 0 80px;
+    padding: 100px 500px 0 80px;
+}
+
 .call-button{
     color: orangered;
     border: none;
     border-radius: 5px;
     background-color: white;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 10px 15px;
 }
 .mindset-header{
